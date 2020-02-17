@@ -1,8 +1,8 @@
 # TODO List Miniapp Client
 
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/29608/1579083525619-0efea0d9-ebdf-4c44-a1e7-daea660b0e52.png)
+![image.png](mini-app-demo.png)
 
-根据[小程序服务端模板](http://gitlab.alibaba-inc.com/awesome-fc/mini-app-todo-list-server)成功部署了服务后，我们只需要在客户端进行简单的配置，就可以访问。
+根据[小程序服务端模板](https://github.com/awesome-fc/fc-mini-app-server)成功部署了服务后，我们只需要在客户端进行简单的配置，就可以访问。
 
 ## 使用方法
 
@@ -17,7 +17,7 @@ npm install git://github.com/aliyun/fc-nodejs-sdk.git#mini-app --save
 ### 2. 填写信息
 
 1. 把[server.js](server.js)拷贝到小程序项目根目录下，与`app.js`在并列
-2. 修改server.js开头定义的变量，这些值会在[服务端模板](http://gitlab.alibaba-inc.com/awesome-fc/mini-app-todo-list-server)部署成功后自动输出：
+2. 修改server.js开头定义的变量，这些值会在[服务端模板](https://github.com/awesome-fc/fc-mini-app-server)部署成功后自动输出：
 
 |信息|说明|
 |----|----|
